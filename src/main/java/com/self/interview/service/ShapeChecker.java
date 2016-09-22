@@ -5,6 +5,6 @@ import com.self.interview.exception.NegativeInputException;
 
 public interface ShapeChecker {
 	
-	public TriangleTypeEnum detectTriangleType(float sideOne, float sideTwo, float sideThree) throws InvalidInputException, NegativeInputException;
+	public TriangleTypeEnum detectTriangleType(double sideOne, double sideTwo, double sideThree) throws InvalidInputException, NegativeInputException;
 
 }

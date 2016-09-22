@@ -5,7 +5,7 @@ import com.self.interview.exception.NegativeInputException;
 
 public class ShapeCheckerImpl implements ShapeChecker {
 
-	public TriangleTypeEnum detectTriangleType(float sideOne, float sideTwo, float sideThree)
+	public TriangleTypeEnum detectTriangleType(double sideOne, double sideTwo, double sideThree)
 			throws InvalidInputException, NegativeInputException {
 		if(sideOne <=0 || sideTwo <= 0 || sideThree <= 0)
 			throw new NegativeInputException("Sides of a triangle cannot be negative or zero");
